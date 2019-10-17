@@ -1,0 +1,185 @@
+<ion-header>
+  <ion-toolbar><ion-button id="b" (click)="goback()" fill="clear"><ion-icon  name="arrow-back"></ion-icon>Back</ion-button></ion-toolbar>      
+
+
+<style>
+#n {
+      --background: linear-gradient(#666262, #545659, #474d53, #38454c, #283e43);
+    }
+
+    .container {
+      background-color: #FFFFFF;
+      margin-top: 90px;
+
+      margin-left: 30px;
+      margin-right: 30px;
+      border-radius: 25px;
+      margin: 10%;
+
+
+    }
+
+    .card-signin {
+      border: 0;
+      border-radius: 8rem;
+      box-shadow: brown;
+      padding-right: 0%;
+    }
+
+
+
+    .card-signup .card-title {
+      margin-bottom: 2rem;
+
+      font-size: 1.5rem;
+
+
+    }
+
+
+
+
+
+    .form-signin .btn { 
+      font-size: 95%;
+      border-radius: 5rem;
+      letter-spacing: .1rem;
+      font-weight: bold;
+      padding: 1rem;
+      transition: all 0.2s;
+    }
+
+
+    .form-label-group {
+      position: relative;
+      margin-bottom: 20px;
+
+    }
+
+    .form-label-group>input {
+      height: auto;
+      border-radius: 2rem;
+      font-size: 17px;
+      text-align: center;
+    }
+
+
+
+
+    .form-label-group>label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      margin-bottom: 0;
+      /* Override default `<label>` margin */
+      line-height: 1.5;
+      color: #495057;
+      border: 1px solid transparent;
+      border-radius: .25rem;
+      transition: all .1s ease-in-out;
+    }
+
+    .form-label-group input::-webkit-input-placeholder {
+      color: transparent;
+
+
+    }
+
+
+
+
+    .form-label-group input:not(:placeholder-shown) {
+      padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+      padding-bottom: calc(var(--input-padding-y) / 3);
+      font-size: 14px;
+      background-color: #ffffff;
+    }
+
+
+
+
+
+    .form-label-group input:not(:placeholder-shown)~label {
+      padding-top: calc(var(--input-padding-y) / 3);
+      padding-bottom: calc(var(--input-padding-y) / 3);
+      font-size: 12px;
+      color: rgb(0, 0, 0);
+
+    }
+
+
+
+
+
+    .text-uppercase {
+      color: white;
+      background-color: #242e4985;
+      font-size: 25px;
+      border-radius: 25px;
+    }
+
+    #b {
+      font-size: 18px;}
+     #b:hover {
+      font-size: 20px;
+      color : #0084b4;}
+
+    a { font-size: 80%;
+      font-weight: bold;
+      margin-top:100%;
+      color: #5F5F5F;}
+    
+
+    .text-uppercase:hover {
+      background-color: #0084b4;
+    }
+
+    a:hover {
+      color:#0084b4;}
+    
+
+    .form-signin {
+      width: 100%;
+    }   
+        
+        
+</style>
+ </ion-header>             
+      
+      
+       
+      
+      
+ <ion-content id="n"  >
+         
+       
+      <div class="container" text-center>                    
+         <h1 ><b>Sign In</b></h1>
+          <div class="row">
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+              <div class="card card-signin my-5">
+                <div class="card-body">
+                  
+                  <form class="form-signin">
+                    <div class="form-label-group">
+                      <input type="text" id="username" class="form-control" placeholder="Username" required>
+                <label for="username">Username</label>
+                    </div>
+                    <div class="form-label-group">
+                      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                      <label for="inputPassword">Password</label>
+                    </div>
+                   
+                    <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button> <br><br>   
+                  </form>
+                  <a (click)="gotoSIGNUP()" > Not on SEE MORE yet? Sign up </a> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+          
+          
+      </ion-content>

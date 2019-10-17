@@ -1,0 +1,7 @@
+{
+  "name": "seeMORE",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

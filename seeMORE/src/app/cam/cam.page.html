@@ -1,0 +1,52 @@
+<ion-header>
+
+
+  <style>
+    #a {
+      float: left;
+      background: transparent !important;
+    }
+
+    #b {
+      padding-left: 30%;
+      padding-top:0.4rem;
+      background: transparent !important;
+    }
+
+    button {
+      background: transparent !important;
+      font-size:20px;
+    }
+  </style>
+
+</ion-header>
+<ion-content>
+  <div><br>
+
+    <ion-buttons id="a" slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+
+    </ion-buttons>
+    <ion-searchbar  *ngIf="isSearchOpened">
+        <ion-icon (click)="isSearchOpened=false"  name="arrow-back"></ion-icon>
+    </ion-searchbar>
+
+
+    <ion-buttons id="b">
+
+      <button ion-button icon-only *ngIf="!isSearchOpened" (click)="isSearchOpened=true">
+       <ion-icon name="search"></ion-icon>
+      </button>
+
+    </ion-buttons>
+    <br> <br>
+    <br>
+  </div>
+
+  
+
+
+
+
+
+</ion-content>
