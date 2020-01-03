@@ -1,11 +1,12 @@
 #         Image-Similarity-Application-Using-Ionic-and-ML5.js
 
 
-Ionic Interface
+I-   Ionic Interface
   > Login Page
   > Register Page
+  > Camera Page
   
-Feature Exractor
+II-  Feature Exractor
   > SIFT - Scale Invariant Feature Transform
   
-K-Nearest Neighbor
+III- K-Nearest Neighbor
