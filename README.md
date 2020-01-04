@@ -4,6 +4,6 @@
 
 ## Register Page
 
-### K Neareast Neighbor
+## K Neareast Neighbor
 
-### ML5.js Feature Extraction
+## ML5.js Feature Extraction
