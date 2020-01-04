@@ -6,9 +6,9 @@
 
 ## Team Members
 
-* "Mohammed Salim Khallouki"
-* "Anas Ouardini"
-* "Marwane El Faroki"
+* Mohammed Salim Khallouki" Sanilogia@gmail.com
+* "Anas Ouardini"           
+* "Marwane El Faroki"       Elfaroki.m.i@gmail.com
 
 ## Login Page
 
