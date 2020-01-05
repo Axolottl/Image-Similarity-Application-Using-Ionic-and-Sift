@@ -77,3 +77,7 @@ At last, by removed noise and refining the extrema's, we can extract better poin
 ![alt text](https://i.imgur.com/EmUOf5X.png)
 
 ## K Neareast Neighbor
+
+In pattern recognition, the k-nearest neighbors algorithm is a non-parametric method used for classification and regression.
+
+![alt text](https://www.mathworks.com/responsive_image/165/120/0/0/0/cache/matlabcentral/mlc-downloads/downloads/03faee64-e85e-4ea0-a2b4-e5964949e2d1/d99b9a4d-618c-45f0-86d1-388bdf852c1d/images/screenshot.gif)
