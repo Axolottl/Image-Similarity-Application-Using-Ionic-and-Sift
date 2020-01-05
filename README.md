@@ -6,14 +6,14 @@
 <hr>
 
 ### Table Of Contents
-* [Team Members](#Team Members)
+* [Team Members](#Team-Members)
 * [Installation](#Installation)
 * [Requirements](#Requirements)
-* [Login Page](#Login Page)
-* [Register Page](#Register Page)
-* [Camera Page](#Camera Page)
-* [KNN Page](#K Nearest Neighbor Page)
-* [SIFT Page](#SIFT Feature Extraction)
+* [Login Page](#Login-Page)
+* [Register Page](#Register-Page)
+* [Camera Page](#Camera-Page)
+* [KNN Page](#K-Nearest-Neighbor-Page)
+* [SIFT Page](#SIFT-Feature-Extraction)
 
 ## Team Members
 
