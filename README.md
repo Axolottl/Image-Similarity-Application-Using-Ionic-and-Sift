@@ -36,10 +36,10 @@
 ## Login Page
 The First Page of the Application requiring the user to input valid credentials to connect.
 
-![alt text](https://i.imgur.com/VOsGHhN.jpg)
-
 ## Register Page
 Represents the Registeration phase of the app making , allowing new users to create valid accounts and connect.
+
+![alt text](https://i.imgur.com/VOsGHhN.jpg)
 
 ## Camera Page
 Shows the main page of the Application , with features allowing to take pictures , upload pictures and crop and modify pictures , in order for them to be processed.
