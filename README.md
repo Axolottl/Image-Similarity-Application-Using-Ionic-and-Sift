@@ -64,8 +64,16 @@ Represents the Registeration phase of the app making , allowing new users to cre
 
 By grey scaling the given image and blurring it using A Gaussian convolution , aswell as subjecting it to a sequence of further convolutions with increasing standard diviation , we end up creating a scale space, 
 
+![alt text](https://i.imgur.com/C6dtwxF.png)
+
+![alt text](https://i.imgur.com/pelbZy1.png)
 
 By extracting constant features that do no change through the diviations, we can gather a number of invariatiant descriptors.
-At last , these will be represented as a vector of features that can be compared and worked on further.
+
+![alt text](https://i.imgur.com/elw30wY.png)
+
+At last, by removed noise and refining the extrema's, we can extract better points , or we coordinates , that are invariant to translations parallel to the edge direction. these will be represented as a vector of features that can be compared and worked on further.
+
+![alt text](https://i.imgur.com/EmUOf5X.png)
 
 ## K Neareast Neighbor
