@@ -11,6 +11,13 @@
 * "Anas Ouardini"           
 * "Marwane El Faroki"       Elfaroki.m.i@gmail.com
 
+## Installation 
+
+### Requirements
+
+* Ionic 
+* Cordova
+
 ## Login Page
 The First Page of the Application requiring the user to input valid credentials to connect.
 
