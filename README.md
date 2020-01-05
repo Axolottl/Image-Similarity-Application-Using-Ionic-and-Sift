@@ -17,9 +17,9 @@
 
 ## Team Members
 
-* "Mohammed Salim Khallouki" Sanilogia@gmail.com
-* "Anas Ouardini"            ouardini14@gmail.com
-* "Marwane El Faroki"        Elfaroki.m.i@gmail.com
+* UltimateCreed "Mohammed Salim Khallouki" Sanilogia@gmail.com
+* Ouardini      "Anas Ouardini"            ouardini14@gmail.com
+* ElFaroki      "Marwane El Faroki"        Elfaroki.m.i@gmail.com
 
 ## Installation 
 
