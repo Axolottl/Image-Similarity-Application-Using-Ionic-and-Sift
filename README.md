@@ -8,15 +8,20 @@
 ## Team Members
 
 * "Mohammed Salim Khallouki" Sanilogia@gmail.com
-* "Anas Ouardini"           
-* "Marwane El Faroki"       Elfaroki.m.i@gmail.com
+* "Anas Ouardini"            ouardini14@gmail.com
+* "Marwane El Faroki"        Elfaroki.m.i@gmail.com
 
 ## Installation 
 
 ### Requirements
 
-* Ionic 
-* Cordova
+* Ionic CLI 5.4.13 
+* Cordova 
+* NodeJS v10.15.2
+* npm 6.13.4
+* JDK 1.8.10
+* SDK
+* Gradle
 
 ## Login Page
 The First Page of the Application requiring the user to input valid credentials to connect.
