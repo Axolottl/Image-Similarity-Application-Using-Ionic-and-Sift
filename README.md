@@ -12,8 +12,8 @@
 * [Login Page](#Login-Page)
 * [Register Page](#Register-Page)
 * [Camera Page](#Camera-Page)
-* [KNN Page](#K-Nearest-Neighbor-Page)
-* [SIFT Page](#SIFT-Feature-Extraction)
+* [KNN Algorithm](#K-Nearest-Neighbor-Page)
+* [SIFT Feature Extractor](#SIFT-Feature-Extraction)
 
 ## Team Members
 
