@@ -36,6 +36,7 @@
 ## Login Page
 The First Page of the Application requiring the user to input valid credentials to connect.
 
+![alt text](https://i.imgur.com/VOsGHhN.jpg)
 
 ## Register Page
 Represents the Registeration phase of the app making , allowing new users to create valid accounts and connect.
