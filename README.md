@@ -12,6 +12,8 @@
 * "Marwane El Faroki"       Elfaroki.m.i@gmail.com
 
 ## Login Page
+Represents the First Page of the app requiring the user to input valid credentials to connect 
+
 
 ## Register Page
 
