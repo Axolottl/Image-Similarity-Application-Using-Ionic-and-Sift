@@ -1,7 +1,8 @@
 # Image Similarity Application Using Ionic and ML5.js
 
-#  SeeMORE is an Ionic Similarity detection application based on K Nearest Neighbor 
-
+<blockquote>
+  <b>SeeMORE is an Ionic Similarity detection application based on K Nearest Neighbor </b>
+</blockquote>
 <hr>
 
 ## Team Members
