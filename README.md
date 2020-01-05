@@ -12,8 +12,8 @@
 * [Login Page](#Login-Page)
 * [Register Page](#Register-Page)
 * [Camera Page](#Camera-Page)
-* [KNN Algorithm](#K-Nearest-Neighbor-Page)
 * [SIFT Feature Extractor](#SIFT-Feature-Extraction)
+* [KNN Algorithm](#K-Nearest-Neighbor-Page)
 
 ## Team Members
 
@@ -56,6 +56,6 @@ Pictures can be edited and croped , allowing for better processing.
 
 ![alt text](https://i.imgur.com/4LwMs2s.jpg)
 
-## K Neareast Neighbor
-
 ## SIFT Feature Extraction
+
+## K Neareast Neighbor
