@@ -1,7 +1,7 @@
-# Image Similarity Application Using Ionic and ML5.js
+# Image Similarity Application Using Ionic, SIFT & KNN
 <br />
 <blockquote>
-  <b>SeeMORE is an Ionic Similarity detection application based on K Nearest Neighbor and ML5.js Mobile Net as an Image Feature Extractor.</b>
+  <b>SeeMORE is an Ionic Similarity detection application based on K Nearest Neighbor and Scale Invariant Feature Transform as an Image Feature Extractor.</b>
 </blockquote>
 <hr>
 
@@ -58,6 +58,13 @@ Represents the Registeration phase of the app making , allowing new users to cre
 
 ## SIFT Feature Extraction
 
-* The scale-invariant feature transform (SIFT) is a feature detection algorithm in computer vision to detect and describe local features in images.
+* The scale-invariant feature transform (SIFT) is a feature detection algorithm in computer vision to detect and describe local features in images.It locates certain key points and then furnishes them with quantitative information (so-called descriptors) which can for example be used for object recognition. The descriptors are supposed to be invariant against various transformations which might make images look different although they represent the same object, 
+#### We will take the following image as an example
+
+By grey scaling the given image and blurring it using A Gaussian convolution , aswell as subjecting it to a sequence of further convolutions with increasing standard diviation , we end up creating a scale space, 
+
+
+By extracting constant features that do no change through the diviations, we can gather a number of invariatiant descriptors.
+At last , these will be represented as a vector of features that can be compared and worked on further.
 
 ## K Neareast Neighbor
