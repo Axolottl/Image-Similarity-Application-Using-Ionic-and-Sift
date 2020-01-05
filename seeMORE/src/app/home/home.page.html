@@ -1,40 +1,36 @@
 <ion-header>
   <ion-toolbar >
-   <ion-title >
-    <h1 style="ion-font-family" id="a"  text-center >SEE MORE</h1></ion-title>
+   
+   
   </ion-toolbar>
   <style>
-    ion-toolbar{--background: #3f4041 !important; }
-    #a{ color:rgb(255, 255, 255) ;
+    ion-toolbar{--background: #04080F !important; }
+    #a{ margin-top:40%;
+      color:rgb(255, 255, 255) ;
       font-size:23px ;}
      ion-title{ border-radius: 0.5rem;
         box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1); }                 
     #b{ margin-top:70px; }
     
-  	#c{--background: linear-gradient( #666262, #545659, #474d53, #38454c, #283e43);}
+  	#c{--background: #04080F;}
 
     #d{ font-size:20px ;
       background-color: #474d53  !important;}
       #d:hover {
         font-size: 22px;
     }
- 
+    
   </style>
 </ion-header> 
 
 <ion-content id="c" >
-     <div id="b" class="ion-text-center">
-      <ion-progress-bar type="indeterminate" color="light" value="1.5"></ion-progress-bar>
-        <ion-button id="d"  size="large"  (click)="gotoSIGNIN()" >Log in</ion-button>
-        <ion-progress-bar type="indeterminate" color="light" value="0.5"></ion-progress-bar><br>
-        <ion-progress-bar type="indeterminate" color="light" value="0.5"></ion-progress-bar>
-        <ion-button id="d"  size="large" (click)="gotoSIGNUP()"  >Sign up</ion-button>
-      <ion-progress-bar type="indeterminate" color="light" value="1.5"></ion-progress-bar>
-    </div>
+  <h1  id="a"  class="ion-text-center" >welcome to <br> SeeMore</h1>    
     
 </ion-content>
 <ion-footer>
     <ion-toolbar>
-        <ion-button  (click)="gotoCAM()" >CAM</ion-button>
+        <ion-button color="medium"  (click)="gotoCAM()" >CAM</ion-button>
+        <ion-button text-center color="medium" id="d"   (click)="gotoSIGNIN()" >Next<ion-icon name="arrow-forward"></ion-icon>
+        </ion-button>
     </ion-toolbar>
   </ion-footer>

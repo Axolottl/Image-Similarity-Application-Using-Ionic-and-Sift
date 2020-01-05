@@ -5,6 +5,7 @@ import { AlertController } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 import {  NavController } from '@ionic/angular' ;
+import { MenuController } from '@ionic/angular';
 
 @Component({
   selector: 'app-root',
@@ -17,10 +18,13 @@ export class AppComponent {
     private splashScreen: SplashScreen,
     private statusBar: StatusBar,
     public alertController: AlertController,
-    public navCtrl: NavController
-  ) {
+    public navCtrl: NavController,
+    private menu: MenuController,
+) {
     this.initializeApp();
-  }
+    }
+  
+  
 
   initializeApp() {
     this.platform.ready().then(() => {
@@ -38,12 +42,13 @@ export class AppComponent {
           role: 'cancel',
           cssClass: 'secondary',
           handler: (blah) => {
-            console.log('Confirm Cancel');
-          }
-        }, {
+            console.log('Confirm Cancel'); }
+         }
+        , {
           text: 'Yes',
           handler: () => {
             this.navCtrl.navigateForward('/home') ;
+            this.menu.enable(false);
           }
         }
       ]
@@ -51,6 +56,5 @@ export class AppComponent {
 
     await alert.present();
   }
-  
 }
 

@@ -1,52 +1,130 @@
 <ion-header>
 
 
+
   <style>
-    #a {
-      float: left;
-      background: transparent !important;
+   
+    #n {
+      margin-top: 10%;
+     
+    }
+    h1 {
+      font-family:'noto';
+      
+    }
+    .row {
+      padding-top: 10%;
+
+    }
+    #j{
+      margin-left:10%;
     }
 
-    #b {
-      padding-left: 30%;
-      padding-top:0.4rem;
-      background: transparent !important;
-    }
 
-    button {
-      background: transparent !important;
-      font-size:20px;
-    }
-  </style>
-
-</ion-header>
-<ion-content>
-  <div><br>
-
-    <ion-buttons id="a" slot="start">
-      <ion-menu-button autoHide="false"></ion-menu-button>
-
-    </ion-buttons>
-    <ion-searchbar  *ngIf="isSearchOpened">
-        <ion-icon (click)="isSearchOpened=false"  name="arrow-back"></ion-icon>
-    </ion-searchbar>
-
-
-    <ion-buttons id="b">
-
-      <button ion-button icon-only *ngIf="!isSearchOpened" (click)="isSearchOpened=true">
-       <ion-icon name="search"></ion-icon>
-      </button>
-
-    </ion-buttons>
-    <br> <br>
-    <br>
-  </div>
+    
 
   
+    
+    #in{
+      margin: 9px;
+      margin-top: 20%;
+      padding:5%;
+      padding-right:20%;
+      padding-left:20%;
+      font-size: 20px;
+      border: 2px solid #ffffff;
+      border-radius:20px;
+      background-color:rgb(0, 0, 0);
+      color:rgb(255, 255, 255) ;
+     
+    }
+    #en{
+      margin: 9px;
+      padding:5%;
+      padding-right:20%;
+      padding-left:20%;
+      font-size: 20px;
+      border: 2px solid #ffffff;
+      border-radius:20px;
+      background-color:rgb(0, 0, 0);
+      color:rgb(255, 255, 255) ;
+     }
+     #cn{
+      margin: 9px;
+      padding:5%;
+      padding-right:20%;
+      padding-left:20%;
+      font-size: 20px;
+      border: 2px solid #ffffff;
+      border-radius:20px;
+      background-color:rgb(0, 0, 0);
+      color:rgb(255, 255, 255) ;
+     
+    }
+
+     
+    #un{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;}
+    
+     
+    
+ 
+
+    .form-signin {
+      width: 100%;
+    }
+    
+    
+  </style>
+</ion-header>
 
 
 
 
 
+<ion-content class="background" id="n">
+
+  <div>
+  <h1> <ion-buttons  (click)="menuSHOW()"  slot="start">
+    <ion-menu-button  color="dark" (click)="menuSHOW()" autoHide="false"></ion-menu-button>
+    <b color="dark" id="j">See More<ion-icon color="dark" name="school"></ion-icon></b>
+  </ion-buttons> </h1>
+ </div>
+ 
+  <div text-center class="row">
+    <form >
+<p><img src="{{myphoto}}"></p>
+      <button id="in" (click)="takephoto()"><div id="un"><B>Take a photo</B></div></button> 
+      <button id="en" (click)="pickImage()"><div id="un"><B>Pick a photo</B></div></button> 
+      <button id="cn" (click)="corpImage()"><div id="un"><B>Edit a photo</B></div></button> 
+      
+
+
+    </form>
+  </div>
 </ion-content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

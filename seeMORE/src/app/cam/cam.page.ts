@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { CameraPreview, CameraPreviewOptions } from '@ionic-native/camera-preview/ngx';
+import {  NavController } from '@ionic/angular' ;
+import { MenuController } from '@ionic/angular';
+import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 
 
 
@@ -9,32 +11,78 @@ import { CameraPreview, CameraPreviewOptions } from '@ionic-native/camera-previe
   styleUrls: ['./cam.page.scss'],
 })
 export class CamPage {
-  cameraPrev:any;
-  public isSearchOpened = false;
-  constructor(private cameraPreview: CameraPreview) {
-    const cameraPreviewOpts: CameraPreviewOptions = {
-      x: 0,
-      y: 0,
-      width: window.screen.width,
-      height: window.screen.height,
-      camera: 'rear',
-      tapPhoto: true,
-      previewDrag: true,
-      toBack: true,
-      alpha: 1
-    }
+  
 
-    // start camera
-      this.cameraPreview.startCamera(cameraPreviewOpts).then(
-      (res) => {
-        console.log(res)
-      },
-      (err) => {
-        console.log(err)
-      });
-      
+  
 
 
+  constructor(private camera: Camera,public navCtrl: NavController , private menu:MenuController)  {}
+ myphoto :any;
+ takephoto(){
+  const options: CameraOptions = {
+    quality: 100,
+    destinationType: this.camera.DestinationType.DATA_URL,
+    encodingType: this.camera.EncodingType.JPEG,
+    mediaType: this.camera.MediaType.PICTURE
   }
   
-}
+  this.camera.getPicture(options).then((imageData) => {
+   // imageData is either a base64 encoded string or a file URI
+   // If it's base64 (DATA_URL):
+   this.myphoto= 'data:image/jpeg;base64,' + imageData;
+  }, (err) => {
+   // Handle error
+  })};
+
+  pickImage() {
+    const options: CameraOptions = {
+    quality: 100,
+    sourceType: this.camera.PictureSourceType.PHOTOLIBRARY,
+    destinationType: this.camera.DestinationType.DATA_URL,
+    saveToPhotoAlbum:false,
+    
+    }
+    this.camera.getPicture(options).then((imageData) => {
+      // imageData is either a base64 encoded string or a file URI
+      // If it's base64 (DATA_URL):
+      // let base64Image = 'data:image/jpeg;base64,' + imageData;
+      this.myphoto= 'data:image/jpeg;base64,' + imageData;
+
+    }, (err) => {
+      // Handle error
+    });
+  }
+   corpImage() {
+    const options: CameraOptions = {
+      quality: 100,
+      sourceType: this.camera.PictureSourceType.PHOTOLIBRARY,
+      destinationType: this.camera.DestinationType.DATA_URL,
+      saveToPhotoAlbum:false,
+      allowEdit:true,
+      targetWidth:300,
+      targetHeight:300,
+      }
+      this.camera.getPicture(options).then((imageData) => {
+        // imageData is either a base64 encoded string or a file URI
+        // If it's base64 (DATA_URL):
+        // let base64Image = 'data:image/jpeg;base64,' + imageData;
+        this.myphoto= 'data:image/jpeg;base64,' + imageData;
+  
+      }, (err) => {
+        // Handle error
+      });
+    }
+  menuSHOW(){this.menu.enable(true)}
+   
+  
+  }
+  
+
+
+
+    
+
+
+
+  
+
