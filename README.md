@@ -44,18 +44,20 @@ Represents the Registeration phase of the app making , allowing new users to cre
 ![alt text](https://i.imgur.com/VOsGHhN.jpg)
 
 ## Camera Page
-Shows the main page of the Application , with features allowing to take pictures , upload pictures and crop and modify pictures , in order for them to be processed.
+* Shows the main page of the Application , with features allowing to take pictures , upload pictures and crop and modify pictures , in order for them to be processed.
 
 ![alt text](https://i.imgur.com/2ifAHpZ.jpg)
 
-You can always pick gallery Photos to upload and process.
+* You can always pick gallery Photos to upload and process.
 
 ![alt text](https://i.imgur.com/pneMmOf.jpg)
 
-Pictures can be edited and croped , allowing for better processing.
+* Pictures can be edited and croped , allowing for better processing.
 
 ![alt text](https://i.imgur.com/4LwMs2s.jpg)
 
 ## SIFT Feature Extraction
+
+* The scale-invariant feature transform (SIFT) is a feature detection algorithm in computer vision to detect and describe local features in images.
 
 ## K Neareast Neighbor
