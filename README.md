@@ -87,4 +87,4 @@ we intend to find out the class of the blue star(BS) , this can be achieved by k
 given 3 out the 3 members of the stars circle were a red circle , it can be determined , with high confidance , that the star belongs to the (RC) group. the K factor is chosen by running mutiple test examples from 1+ , and comparing results until the varying curve slows down or flatens.
 ![alt text](https://www.analyticsvidhya.com/wp-content/uploads/2014/10/training-error.png)
 the point of diviation could be determined as the optimal value of K.
-For our current example, given Sift has provided us with a dataset to work , the vectors will be processed bu the knn ,which is provided by ml5.js ,a javascript library, 
+For our current example, given Sift has provided us with a dataset to work , the vectors will be processed bu the knn ,which is provided by ml5.js.
