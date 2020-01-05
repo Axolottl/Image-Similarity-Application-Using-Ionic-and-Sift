@@ -78,6 +78,13 @@ At last, by removed noise and refining the extrema's, we can extract better poin
 
 ## K Neareast Neighbor
 
-In pattern recognition, the k-nearest neighbors algorithm is a non-parametric method used for classification and regression.
-
-![alt text](https://www.mathworks.com/responsive_image/165/120/0/0/0/cache/matlabcentral/mlc-downloads/downloads/03faee64-e85e-4ea0-a2b4-e5964949e2d1/d99b9a4d-618c-45f0-86d1-388bdf852c1d/images/screenshot.gif)
+In pattern recognition, the k-nearest neighbors algorithm is a non-parametric method used for classification and regression. It representes an unsupervised learning algorithm that enable classification and sorting , K representes the number elements of a groupings in which the data set will be grouped.
+### Example :
+![alt text](https://www.analyticsvidhya.com/wp-content/uploads/2014/10/scenario1.png)
+the following spread is composed of a number of red circles (RC) and green squares(GS).
+we intend to find out the class of the blue star(BS) , this can be achieved by knn , the k is the nearest neighbors we wish to take vote from , if its 3 , groupings will have 3 in their members
+![alt text](https://www.analyticsvidhya.com/wp-content/uploads/2014/10/scenario2.png)
+given 3 out the 3 members of the stars circle were a red circle , it can be determined , with high confidance , that the star belongs to the (RC) group. the K factor is chosen by running mutiple test examples from 1+ , and comparing results until the varying curve slows down or flatens.
+![alt text](https://www.analyticsvidhya.com/wp-content/uploads/2014/10/training-error.png)
+the point of diviation could be determined as the optimal value of K.
+For our current example, given Sift has provided us with enough processing 
