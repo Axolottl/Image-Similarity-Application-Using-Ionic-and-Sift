@@ -12,10 +12,14 @@
 * "Marwane El Faroki"       Elfaroki.m.i@gmail.com
 
 ## Login Page
-Represents the First Page of the app requiring the user to input valid credentials to connect 
+The First Page of the Application requiring the user to input valid credentials to connect.
 
 
 ## Register Page
+Represents the Registeration phase of the app making , allowing new users to create valid accounts and connect.
+
+## Camera Page
+Shows the main page of the Application , with features allowing to take pictures , upload pictures and crop and modify pictures , in order for them to be processed.
 
 ## K Neareast Neighbor
 
