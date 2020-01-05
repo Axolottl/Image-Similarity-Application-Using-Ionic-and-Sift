@@ -60,6 +60,7 @@ Represents the Registeration phase of the app making , allowing new users to cre
 
 * The scale-invariant feature transform (SIFT) is a feature detection algorithm in computer vision to detect and describe local features in images.It locates certain key points and then furnishes them with quantitative information (so-called descriptors) which can for example be used for object recognition. The descriptors are supposed to be invariant against various transformations which might make images look different although they represent the same object, 
 #### We will take the following image as an example
+![alt text](https://i.imgur.com/AChs2aC.jpg)
 
 By grey scaling the given image and blurring it using A Gaussian convolution , aswell as subjecting it to a sequence of further convolutions with increasing standard diviation , we end up creating a scale space, 
 
