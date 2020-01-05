@@ -5,6 +5,16 @@
 </blockquote>
 <hr>
 
+### Table Of Contents
+* [Team Members](#Team Members)
+* [Installation](#Installation)
+* [Requirements](#Requirements)
+* [Login Page](#Login Page)
+* [Register Page](#Register Page)
+* [Camera Page](#Camera Page)
+* [KNN Page](#K Nearest Neighbor Page)
+* [SIFT Page](#SIFT Feature Extraction)
+
 ## Team Members
 
 * "Mohammed Salim Khallouki" Sanilogia@gmail.com
@@ -35,4 +45,4 @@ Shows the main page of the Application , with features allowing to take pictures
 
 ## K Neareast Neighbor
 
-## ML5.js Feature Extraction
+## SIFT Feature Extraction
