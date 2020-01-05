@@ -1,6 +1,25 @@
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
-
+@font-face {
+  font-family: 'lila';
+  
+  src: url('../assets/fonts/myfonts/LilitaOne-Regular.ttf');
+}
+@font-face {
+  font-family: 'noto';
+  
+  src: url('../assets/fonts/myfonts/NotoSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'noto2';
+  
+  src: url('../assets/fonts/myfonts/NotoSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'noto3';
+  
+  src: url('../assets/fonts/myfonts/NotoSans-BoldItalic.ttf');
+}
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
@@ -36,7 +55,7 @@
   --ion-color-success-tint: #28e070;
 
   /** warning **/
-  --ion-color-warning: #ffce00;
+  --ion-color-warning: #ff9900;
   --ion-color-warning-rgb: 255, 206, 0;
   --ion-color-warning-contrast: #ffffff;
   --ion-color-warning-contrast-rgb: 255, 255, 255;
@@ -75,9 +94,11 @@
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
 
-  /* Set the font family of the entire app */
-  --ion-font-family: -apple-system, BlinkMacSystemFont,  sans-serif;
-  --input-padding-x: 1.5rem;
-  --input-padding-y: .75rem;
+  --ion-font-family:'noto2';
+  --ion-color-white: #ffffff;
+  --ion-color-black: #000000;
+
+  
+  
 
 }

@@ -6,11 +6,20 @@ import {  NavController } from '@ionic/angular' ;
   styleUrls: ['./sign-in.page.scss'],
 })
 export class SignINPage implements OnInit {
+  
 
   constructor(public navCtrl: NavController) { }
   ngOnInit() {
   }
   goback(){this.navCtrl.back();}
   gotoSIGNUP(){this.navCtrl.navigateForward('/sign-up') ;}
-
+ pswd(){
+  var x = <HTMLInputElement>document.getElementById("pwd");
+  if (x.type == "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+ }
+  
 }

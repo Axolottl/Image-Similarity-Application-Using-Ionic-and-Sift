@@ -1,19 +1,22 @@
-<ion-app>
-    <ion-menu contentId="content1" side="start">
+<ion-app style="background: none transparent;" >
+    <ion-menu  side="start">
         <ion-header>
-          <ion-toolbar>
+          <ion-toolbar text-center>
             <ion-title>Menu</ion-title>
           </ion-toolbar>
         </ion-header>
         <ion-content>
             <ion-list>
-                <ion-button fill="clear"  expand="full" color="primary"><ion-icon color="dark" name="contact">  </ion-icon>Account</ion-button>
-                <ion-button fill="clear"  expand="full" color="primary"><ion-icon  color="dark" name="image"> </ion-icon>My library</ion-button>
-                <ion-button fill="clear"  expand="full" color="primary"><ion-icon  color="dark" name="build"> </ion-icon>Setings</ion-button>
-               <ion-button fill="clear"  expand="full" color="primary"><ion-icon color="dark" name="log-out"> </ion-icon>Sign Out</ion-button>
-                
+              <div id="a">
+                <ion-button fill="clear"  expand="full" color="primary"><ion-icon color="dark" name="contact">  </ion-icon>Account</ion-button><br>
+                <ion-button fill="clear"  expand="full" color="primary"><ion-icon  color="dark" name="image"> </ion-icon>My library</ion-button><br>
+                <ion-button fill="clear"  expand="full" color="primary"><ion-icon  color="dark" name="build"> </ion-icon>Setings</ion-button><br>
+               <ion-button fill="clear"  expand="full" color="primary" (click)="presentAlertConfirm()"><ion-icon color="dark" name="log-out"> </ion-icon>Sign Out</ion-button>
+              </div>
               </ion-list>
         </ion-content>
       </ion-menu>
-  <ion-router-outlet id="content1" main></ion-router-outlet>
+     
+  <ion-router-outlet  main></ion-router-outlet>
+
 </ion-app>
